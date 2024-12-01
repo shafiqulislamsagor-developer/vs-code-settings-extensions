@@ -1,15 +1,43 @@
 {
+  //workbranch
+  // "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "vscode-icons",
-  "editor.fontSize": 18,
+  "editor.fontFamily": "'cascadia code', monospace ",
+  "editor.fontSize": 20,
   "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "explorer.confirmDelete": false,
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+
+  //Bracket Pair
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  //PowerMode extension
+  "powermode.enabled": true,
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.shake.enabled": false,
+  "powermode.combo.location": "off",
+  //cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  //tarminal
+  "terminal.integrated.fontSize": 20,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "files.autoSave": "onFocusChange",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 
-  // editor
-  "editor.fontFamily": "Fira Code",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -20,8 +48,6 @@
       }
     ]
   },
-  // cursor
-  "editor.cursorSmoothCaretAnimation": "on",
 
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
@@ -29,10 +55,7 @@
     "source.organizeImports": "explicit"
   },
   "eslint.alwaysShowStatus": true,
-  //terminal
-  "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontFamily": "Fira Code",
-  "workbench.colorTheme": "Andromeda Bordered",
   // terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#1D2021",
@@ -57,40 +80,14 @@
     "terminal.ansiYellow": "#FAC03B"
   },
 
-  //Bracket Pair
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
   //PowerMode extension
-  "powermode.enabled": true,
-  "powermode.combo.counterEnabled": "hide",
-  "powermode.shake.enabled": false,
-  "powermode.combo.location": "off",
-  //cursor
-  "editor.cursorBlinking": "expand",
-  //tarminal
-  "terminal.integrated.fontWeight": "600",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "tabnine.experimentalAutoImports": true,
   "workbench.startupEditor": "none",
   "prisma.showPrismaDataPlatformNotification": false,
-  //prisma
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
   "terminal.integrated.env.windows": {},
   "console-ninja.featureSet": "Community",
-  "liveServer.settings.donotShowInfoMsg": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -106,6 +103,5 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "files.autoSave": "onFocusChange"
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
